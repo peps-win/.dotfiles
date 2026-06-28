@@ -1,0 +1,4 @@
+2026-06-28 03:11:26.468 [info] Started local extension host with pid 1336.
+2026-06-28 03:11:27.090 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 03:11:29.256 [info] [perf] Render performance baseline is 24ms
+2026-06-28 03:11:32.092 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

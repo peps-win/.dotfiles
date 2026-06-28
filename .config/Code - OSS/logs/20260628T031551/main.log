@@ -1,0 +1,10 @@
+2026-06-28 03:15:51.117 [info] StorageMainService: creating application shared storage
+2026-06-28 03:15:51.172 [info] [shared storage] Creating shared storage database at '/home/alex/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-28 03:15:51.172 [info] [shared storage] Initializing fallback application storage (path: /home/alex/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-06-28 03:15:51.187 [info] [shared storage] Fallback application storage initialized with 58 items
+2026-06-28 03:15:51.189 [info] update#setState disabled
+2026-06-28 03:15:51.189 [info] update#ctor - updates are disabled as there is no update URL
+2026-06-28 03:19:49.038 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: history.entries, workbench.explorer.treeViewState Length: 57
+2026-06-28 03:21:42.047 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: workbench.explorer.views.state Length: 304
+2026-06-28 03:21:42.812 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: memento/workbench.parts.editor, workbench.explorer.views.state Length: 838
+2026-06-28 03:21:52.606 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: memento/workbench.parts.editor Length: 533

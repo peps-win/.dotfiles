@@ -1,0 +1,10 @@
+2026-06-28 03:12:23.696 [info] Extension host with pid 1317 started
+2026-06-28 03:12:23.696 [info] Skipping acquiring lock for /home/alex/.config/Code - OSS/User/workspaceStorage/efd4827682e744e6a86bd23cbf5888b5.
+2026-06-28 03:12:23.796 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-06-28 03:12:23.813 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-06-28 03:12:23.872 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-06-28 03:12:23.875 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-06-28 03:12:23.891 [info] Eager extensions activated
+2026-06-28 03:12:23.895 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-06-28 03:12:23.897 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-06-28 03:14:08.358 [info] Extension host terminating: renderer closed the MessagePort

@@ -1,0 +1,5 @@
+2026-06-28 03:15:51.772 [info] Started local extension host with pid 1973.
+2026-06-28 03:15:52.297 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 03:15:54.457 [info] [perf] Render performance baseline is 15ms
+2026-06-28 03:15:57.299 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 03:18:50.429 [warning] [File Watcher ('parcel')] Watcher shutdown because watched path got deleted (path: /home/alex/.config)
