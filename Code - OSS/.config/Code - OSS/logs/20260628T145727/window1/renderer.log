@@ -1,0 +1,9 @@
+2026-06-28 14:57:28.469 [info] Started local extension host with pid 2144.
+2026-06-28 14:57:28.729 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 14:57:31.124 [info] [perf] Render performance baseline is 20ms
+2026-06-28 14:57:33.731 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 15:42:30.934 [error] Error: ENOTDIR: not a directory, mkdir '/home/alex/.config/Code - OSS': EntryNotADirectory (FileSystemError): Error: ENOTDIR: not a directory, mkdir '/home/alex/.config/Code - OSS'
+    at i.create (file:///usr/lib/code/out/main.js:440:36503)
+    at Qr (file:///usr/lib/code/out/main.js:440:35087)
+    at i.toFileSystemProviderError (file:///usr/lib/code/out/main.js:476:27754)
+    at i.doCloneFile (file:///usr/lib/code/out/main.js:476:27109)

@@ -1,0 +1,8 @@
+2026-06-28 14:57:27.847 [info] StorageMainService: creating application shared storage
+2026-06-28 14:57:27.899 [info] [shared storage] Creating shared storage database at '/home/alex/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-06-28 14:57:27.900 [info] [shared storage] Initializing fallback application storage (path: /home/alex/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-06-28 14:57:27.917 [info] [shared storage] Fallback application storage initialized with 58 items
+2026-06-28 14:57:27.923 [info] update#setState disabled
+2026-06-28 14:57:27.923 [info] update#ctor - updates are disabled as there is no update URL
+2026-06-28 15:42:31.545 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?),(?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: workbench.explorer.treeViewState, memento/workbench.editors.files.textFileEditor Length: 1398
+2026-06-28 15:42:51.100 [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?) ON CONFLICT (key) DO UPDATE SET value = excluded.value WHERE value != excluded.value). Details: Keys: memento/workbench.editors.files.textFileEditor Length: 1341

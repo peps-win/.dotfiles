@@ -1,0 +1,22 @@
+file:///home/alex/.dotfiles/migrate-config.sh {"mtime":1782679106282,"ctime":1782679023202,"size":375,"etag":"3g9sjs3m2c3","orphaned":false,"typeId":""}
+#!/bin/bash
+# migrate-dotfiles.sh
+set -e
+
+DOTFILES="$HOME/.dotfiles"
+CONFIG="$HOME/.config"
+
+mkdir -p "$DOTFILES"
+cd "$DOTFILES"
+
+for app in "$CONFIG"/*/; do
+    name=$(basename "$app")
+    
+    echo "Migratingme..."
+    mv "$app" "$DOTFILES/$name/.config/"
+    
+    cd "$DOTFILES"
+    stow "$name"
+done
+
+echo "Done! All .config apps stowed."
