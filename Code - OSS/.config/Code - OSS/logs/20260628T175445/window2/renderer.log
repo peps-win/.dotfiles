@@ -1,0 +1,11 @@
+2026-06-28 17:54:54.058 [error] Error: The editor could not be opened because the file was not found.
+    at oY.handleSetInputError (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3937:93307)
+    at async oY.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:3937:92316)
+    at async mNe.doSetInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1254:34485)
+    at async mNe.doOpenEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1254:32271)
+    at async mNe.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1254:31219)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1366:31396
+2026-06-28 17:54:54.106 [info] Started local extension host with pid 1623.
+2026-06-28 17:54:54.546 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-28 17:54:56.779 [info] [perf] Render performance baseline is 22ms
+2026-06-28 17:54:59.548 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false

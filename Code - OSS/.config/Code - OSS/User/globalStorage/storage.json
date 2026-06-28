@@ -7,9 +7,16 @@
         "folders": [
             {
                 "folderUri": "file:///home/alex/.config"
+            },
+            {
+                "folderUri": "file:///home/alex/.dotfiles"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1782687285690"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "profileAssociations": {
@@ -22,15 +29,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/alex/.config",
-            "backupPath": "/home/alex/.config/Code - OSS/Backups/70a1734e154ecd382b135d5dff40819b",
+            "folder": "file:///home/alex/.dotfiles",
+            "backupPath": "/home/alex/.config/Code - OSS/Backups/c6b534036cb167cc071198bd5a330144",
             "uiState": {
                 "mode": 0,
                 "x": 1,
                 "y": 0,
-                "width": 958,
-                "height": 1076,
-                "zoomLevel": -1
+                "width": 976,
+                "height": 557
             }
         },
         "openedWindows": []
@@ -57,9 +63,9 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 42,
+            "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 287,
+            "sideBarWidth": 182,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -67,8 +73,8 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 287,
-            "auxiliaryBarWidth": 9007199254740991,
+            "sideBarWidth": 182,
+            "auxiliaryBarWidth": 286,
             "workspaces": {
                 "53b8a5a3ccc621cc145faa5de0eefba8": {
                     "sideBarVisible": true,
@@ -76,7 +82,7 @@
                 },
                 "50d856f224953a10ca6b32aacb552109": {
                     "sideBarVisible": true,
-                    "auxiliaryBarVisible": true
+                    "auxiliaryBarVisible": false
                 },
                 "0a21b036181cb98b666548b93debb8e5": {
                     "sideBarVisible": true,
